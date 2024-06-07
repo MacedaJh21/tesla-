@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/header.astro'
+import Logo from '../components/logo.astro'
+import Section from '../components/HeroSection.astro'
+import Solar from '../components/SolarSection.astro'
+
+---
+
+<Layout title="Welcome to Astro."></Layout>
+
+	
+    <Header />
+
+	<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto">
+		
+	
+		<div class="snap-center">
+			<Section />
+		</div>
+		<div class="snap-center">
+			<Solar />
+		</div>
+		
+    </main>
+	
+    
+
+</Layout>
